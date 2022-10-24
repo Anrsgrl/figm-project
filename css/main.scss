@@ -458,7 +458,7 @@ header {
         .image-card{
             display: flex;
             margin-left: 3%;
-            width: 70%;
+            width: 52%;
             .feature2-img{
                 position: relative;
                 margin-left: 125px;
@@ -486,6 +486,10 @@ header {
                 line-height: 30px;
             }
         }
+    }
+    @media (max-width: 991px){
+        .image-card{
+            width: 70%;}
     }
     .feature2-footer{
         height: 206px;
